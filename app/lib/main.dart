@@ -1,5 +1,5 @@
+import 'package:app/video_demo.dart';
 import 'package:flutter/material.dart';
-import 'live.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: LivePage(),
+      home: const VideoDemo(),
     );
   }
 }
